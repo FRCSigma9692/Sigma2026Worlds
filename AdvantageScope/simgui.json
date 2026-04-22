@@ -1,0 +1,62 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Pose": "Field2d",
+      "/SmartDashboard/Alerts": "Alerts",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Module 0": "Mechanism2d",
+      "/SmartDashboard/Module 1": "Mechanism2d",
+      "/SmartDashboard/Module 2": "Mechanism2d",
+      "/SmartDashboard/Module 3": "Mechanism2d",
+      "/SmartDashboard/PathPlanner": "Alerts"
+    },
+    "windows": {
+      "/Pose": {
+        "builtin": "",
+        "height": 8.051901817321777,
+        "width": 17.54825210571289,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Auto Mode": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field": {
+        "builtin": "",
+        "height": 8.051901817321777,
+        "image": "C:\\Users\\Team Sigma\\Desktop\\RebuiltSigma_updated\\AdvantageScope\\2026-field-no-fuel.png",
+        "width": 17.54825210571289
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "DriveState": {
+        "open": true
+      },
+      "Pose": {
+        "double[]##v_/Pose/robotPose": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Connections": {
+      "open": true
+    },
+    "Server": {
+      "open": true
+    },
+    "visible": true
+  }
+}
