@@ -1,0 +1,95 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 6.117240963855421,
+        "y": 3.56510843373494
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.1872247605630974,
+        "y": 3.32510370836817
+      },
+      "isLocked": false,
+      "linkedName": "BR_P32C"
+    },
+    {
+      "anchor": {
+        "x": 5.811654778887304,
+        "y": 0.5868473609129818
+      },
+      "prevControl": {
+        "x": 7.367539191913824,
+        "y": 0.6293220316512327
+      },
+      "nextControl": {
+        "x": 4.82777108433735,
+        "y": 0.5599879518072293
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.443880171184022,
+        "y": 0.5868473609129818
+      },
+      "prevControl": {
+        "x": 4.8059156626506025,
+        "y": 0.5599879518072293
+      },
+      "nextControl": {
+        "x": 2.8718001867891907,
+        "y": 0.5981288072764155
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.500168674698795,
+        "y": 1.5
+      },
+      "prevControl": {
+        "x": 2.511096385542168,
+        "y": 0.9752409638554218
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BR_P2P3"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.85,
+      "rotationDegrees": -179.51801082899638
+    },
+    {
+      "waypointRelativePos": 2.0,
+      "rotationDegrees": -178.40819893329135
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 5.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": -130.32197106528565
+  },
+  "reversed": false,
+  "folder": "RightBluePaths",
+  "idealStartingState": {
+    "velocity": 2.0,
+    "rotation": 163.21735585472928
+  },
+  "useDefaultConstraints": true
+}

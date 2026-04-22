@@ -1,0 +1,127 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "sequential",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "parallel",
+                      "data": {
+                        "commands": [
+                          {
+                            "type": "path",
+                            "data": {
+                              "pathName": "RRP1_W"
+                            }
+                          },
+                          {
+                            "type": "sequential",
+                            "data": {
+                              "commands": [
+                                {
+                                  "type": "wait",
+                                  "data": {
+                                    "waitTime": 0.8
+                                  }
+                                },
+                                {
+                                  "type": "named",
+                                  "data": {
+                                    "name": "Intake"
+                                  }
+                                },
+                                {
+                                  "type": "wait",
+                                  "data": {
+                                    "waitTime": 2.0
+                                  }
+                                },
+                                {
+                                  "type": "named",
+                                  "data": {
+                                    "name": "Shooter"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "named",
+                            "data": {
+                              "name": "HopperOut"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "parallel",
+                      "data": {
+                        "commands": [
+                          {
+                            "type": "named",
+                            "data": {
+                              "name": "Shoot"
+                            }
+                          },
+                          {
+                            "type": "wait",
+                            "data": {
+                              "waitTime": 3.0
+                            }
+                          },
+                          {
+                            "type": "sequential",
+                            "data": {
+                              "commands": [
+                                {
+                                  "type": "wait",
+                                  "data": {
+                                    "waitTime": 1.0
+                                  }
+                                },
+                                {
+                                  "type": "named",
+                                  "data": {
+                                    "name": "HopperShoot"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "named",
+                            "data": {
+                              "name": "IntakeStop"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "named",
+                      "data": {
+                        "name": "Shoot_Stop"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Red_Paths",
+  "choreoAuto": false
+}
